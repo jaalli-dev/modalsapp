@@ -27,3 +27,7 @@ cd to modals2/
 ./gradlew bootRun
 
 
+### Issues
+To use HSQL one has to rename HsqlDatasource.txt to HsqlDatasource.java and PostgresDatasource.java to PostgresDatasource.txt in modals2/src/main/java/com/example/modals2/config and schema.sql to something else and hsqlschema.sql to schema.sql in modals2/src/main/resources
+
+Sorry for that inconvenience
