@@ -17,7 +17,7 @@ java -cp build/libs/hsqldb-2.6.0-jdk11.jar org.hsqldb.Server -silent false -data
 
 cd to /modals2/src/main/webapp/
 
-http-server ./dist/modalsapp -p <port nr>
+http-server ./dist/modalsapp -p [port nr]
 
   
 ##### Run Tomcat server with gradlew
