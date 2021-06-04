@@ -8,7 +8,7 @@ Change Database confgurations in application.properties
 
 Run development database
 cd to modals2/
-java -cp build/libs/hsqldb-2.6.0-jdk11.jar org.hsqldb.Server -silent false -database.0 mem:<yourdb> -dbname.0 <yourdb>
+java -cp build/libs/hsqldb-2.6.0-jdk11.jar org.hsqldb.Server -silent false -database.0 mem:[yourdb] -dbname.0 [yourdb]
 
 Run web application with http-server
 cd to /modals2/src/main/webapp/
