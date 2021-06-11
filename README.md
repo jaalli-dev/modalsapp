@@ -26,6 +26,35 @@ cd to modals2/
   
 ./gradlew bootRun
 
+### Angular project from source
+Start new Angular project:
+
+ng new modalsapp
+
+(Strict typechecking - yes, Angular routing - no, CSS)
+
+cd modalsapp
+
+Install required dependencies:
+
+ng add @ng-bootstrap/ng-bootstrap
+
+ng add @fortawesome/angular-fontawesome
+
+(Choose Free Solid Icons, Free Regular Icons, Free Brand Icons)
+
+
+
+Replace the generated src directory with the modalsapp/src directory from this repository
+
+Replace the genenerated tsconfig.json with the modalsapp/tsconfig.json from this repository
+
+(Strict null check is set to false)
+
+Run project with:
+
+ng serve
+
 
 ### About
 modals2 folder contains back end source that uses Java Spring technologies
